@@ -1,0 +1,23 @@
+
+S.1. Bir iş yerindeki  çalışanların  maaşlarının üzerine aşağıdaki kurallara göre çocuk parası eklenmektedir.
+
+a)	1 çoçuğu olanlara                100 TL. 
+b)	2      “          “                        250 TL.
+c)	3 ve daha fazla olanlara      400  TL.
+
+Ay sonunda,  kişi bazında, isim, maaş, çocuk sayısı  bilgilerini alarak, 
+-----Tüm elemanların alacakları ücreti bulan ve yazdıran,
+-----En az ücret alan bir 1 çocuklu işçinin ücretini , ismi ile yazdıran,
+Sınıfı oluşturunuz ve çalıştırma sınıfı içerisinde istenilen işlemleri yaptırınız. 
+Not: 
+1-	Eleman sayısı kurucu metod ile alınacaktır. 
+2-	Elemanların maaş ve çocuk sayısı bilgileri 2 boyutlu bir dizide
+   tutulacaktır.                     
+
+S.2. 
+String türündeki 3 elemanlık “aylar” isimli bir dizi tanımlayarak , başlangıç değerleri olarak yılın ilk üç ayının isimlerini giriniz. Daha sonra yine int türünde 3 satırlık ve 30 sütunluk “mevsim” isimli 2 boyutlu bir dizi tanımlayarak, her aydaki 30 günlük satış tutarlarını bu diziye giriniz. 
+--------En yüksek satışın olduğu ayı bulan ve bu ayın ismi ile birlikte aylık toplam tutarı yazdıran,
+--------Her ayın en az satışın yapıldığı günü, o günün tutarı ile birlikte yazdıran 
+           bir sınıf oluşturunuz ve çalıştırma sınıfı içerisinde istenilen işlemleri  
+           yaptırınız. 
+

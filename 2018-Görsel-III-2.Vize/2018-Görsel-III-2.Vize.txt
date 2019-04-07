@@ -1,0 +1,27 @@
+
+S.1. Bir iş yerindeki  çalışanların  maaşlarının üzerine aşağıdaki kurallara göre 
+fazla mesai ücretleri eklenmektedir.
+
+a)	Günlük 2 saate kadar fazla mesai yapanlara  her gün için saati      50 TL.
+b)	Günlük 3 saat ve üzeri fazla mesai yapanlara  her gün için saati    40  TL.
+
+Elemanlar o günkü işin durumuna göre her gün farklı sürelerde
+ fazla mesai yapabilirler.
+
+---  Ay sonunda,  kişi bazında, maaş ve fazla mesai  bilgilerini alarak,
+ tüm elemanların alacakları aylık ücreti bulan ve sıra numarası ile birlikte yazdıran,
+--- Fazla mesai yapmayan elemanların isimlerini yazdıran,
+--- Ay sonunda toplamda kaç saat 50 tl. den, kaç saat 40tl. den 
+fazla mesai yapıldığını bulan,
+--- En fazla fazla mesai ücreti 
+alan elemanın ismini aldığı toplam fazla mesai ücreti ile birlikte yazdıran
+
+sınıfı oluşturunuz ve çalıştırınız. 
+
+S.2. 
+int türünde 4 satırlık ve 7 sütunluk “satislar” isimli 
+2 boyutlu bir dizi tanımlayarak, herhangi bir aydaki 7 
+günlük haftalık satış tutarlarını bu diziye giriniz.
+ En yüksek ilk iki satışın hangi haftalar olduğunu  
+ bulan ve tutarları ile birlikte  yazdıran bir sınıf
+ oluşturunuz ve çalıştırınız.. 

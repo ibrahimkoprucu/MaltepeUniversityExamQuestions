@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satislar4X7", "Satislar4X7\Satislar4X7.csproj", "{B5B35475-7C82-4214-8306-45FF9EB37317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FazlaMesai", "FazlaMesai\FazlaMesai.csproj", "{4D05488D-2093-4F3D-88B5-AE44DA220D47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B35475-7C82-4214-8306-45FF9EB37317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B35475-7C82-4214-8306-45FF9EB37317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B35475-7C82-4214-8306-45FF9EB37317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B35475-7C82-4214-8306-45FF9EB37317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D05488D-2093-4F3D-88B5-AE44DA220D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D05488D-2093-4F3D-88B5-AE44DA220D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D05488D-2093-4F3D-88B5-AE44DA220D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D05488D-2093-4F3D-88B5-AE44DA220D47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9F03B0B-BE58-4235-AAA3-4351A6C3C69F}
+	EndGlobalSection
+EndGlobal
