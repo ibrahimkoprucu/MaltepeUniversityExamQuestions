@@ -49,7 +49,7 @@ namespace StandSorusu
                 }
             }
 
-            Console.WriteLine("....enfazla ziyaret edilen standın Bilgileri: ");
+            Console.WriteLine("enfazla ziyaret edilen standın Bilgileri: ");
             Console.WriteLine(s1);
 
             Console.WriteLine("enfazla ziyaret edilen 2.standın Bilgileri: ");
@@ -58,29 +58,36 @@ namespace StandSorusu
 
         public void EnYaslılarıBul()
         {
-            Stand sKadın = null;
-            Stand sErkek = null;
-            int maxKadınYas = 0;
-            int maxErkekYas = 0;
-
-            foreach (var stand in standlar)
+            try
             {
-                if (stand.EnyasliKadin.yas > maxKadınYas)
+                Stand sKadın = null;
+                Stand sErkek = null;
+                int maxKadınYas = 0;
+                int maxErkekYas = 0;
+
+                foreach (var stand in standlar)
                 {
-                    maxKadınYas = stand.EnyasliKadin.yas;
-                    sKadın = stand;
+                    if (stand.EnyasliKadin.yas > maxKadınYas)
+                    {
+                        maxKadınYas = stand.EnyasliKadin.yas;
+                        sKadın = stand;
+                    }
+
+                    if (stand.EnyasliErkek.yas > maxErkekYas)
+                    {
+                        maxErkekYas = stand.EnyasliErkek.yas;
+                        sErkek = stand;
+                    }
                 }
 
-                if (stand.EnyasliErkek.yas > maxErkekYas)
-                {
-                    maxErkekYas = stand.EnyasliErkek.yas;
-                    sErkek = stand;
-                }
+                Console.WriteLine("En yaşlı kadının bulunduğu stand: {0} nolu standtır", sKadın.standNo);
+
+                Console.WriteLine("Enyaşlı erkeğin bulunduğu stand: {0} nolu standtır", sErkek.standNo);
             }
-
-            Console.WriteLine("Enyaşlı kadının bulunduğu stand: {0} nolu standtır", sKadın.standNo);
-
-            Console.WriteLine("Enyaşlı erkeğin bulunduğu stand: {0} nolu standtır", sErkek.standNo);
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         public void OrtalamalarıBul()
