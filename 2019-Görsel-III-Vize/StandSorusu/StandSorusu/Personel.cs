@@ -14,7 +14,7 @@ namespace StandSorusu
             isim = Console.ReadLine();
 
             Console.WriteLine("Personelin cinsiyetini Giriniz(1-kadın,2-erkek)");
-            int cinsiyet = int.Parse(Console.ReadLine());
+            cinsiyet = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Personelin yasini giriniz");
             yas = int.Parse(Console.ReadLine());

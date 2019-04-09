@@ -27,15 +27,12 @@ namespace StandSorusu
             }
         }
 
-        private Stand s1;
-        private Stand s2;
-
         public void EnFazlaZiyaretEdilenStandBul()
         {
             int max1 = 0;
-
+            Stand s1 = null;
             int max2 = 0;
-
+            Stand s2 = null;
             foreach (var stand in standlar)
             {
                 if (stand.ziyaretciSayisi > max1)
@@ -52,20 +49,18 @@ namespace StandSorusu
                 }
             }
 
-            Console.WriteLine("enfazla ziyaret edilen standın Bilgileri: ");
+            Console.WriteLine("....enfazla ziyaret edilen standın Bilgileri: ");
             Console.WriteLine(s1);
 
             Console.WriteLine("enfazla ziyaret edilen 2.standın Bilgileri: ");
             Console.WriteLine(s2);
         }
 
-        private Stand sKadın;
-        private Stand sErkek;
-
         public void EnYaslılarıBul()
         {
+            Stand sKadın = null;
+            Stand sErkek = null;
             int maxKadınYas = 0;
-
             int maxErkekYas = 0;
 
             foreach (var stand in standlar)
@@ -79,11 +74,12 @@ namespace StandSorusu
                 if (stand.EnyasliErkek.yas > maxErkekYas)
                 {
                     maxErkekYas = stand.EnyasliErkek.yas;
-                    sKadın = stand;
+                    sErkek = stand;
                 }
             }
 
             Console.WriteLine("Enyaşlı kadının bulunduğu stand: {0} nolu standtır", sKadın.standNo);
+
             Console.WriteLine("Enyaşlı erkeğin bulunduğu stand: {0} nolu standtır", sErkek.standNo);
         }
 
